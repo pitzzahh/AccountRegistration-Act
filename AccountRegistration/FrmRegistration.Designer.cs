@@ -44,7 +44,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.AddressInput = new System.Windows.Forms.TextBox();
             this.NextButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -170,13 +170,13 @@
             this.label8.TabIndex = 21;
             this.label8.Text = "Address:";
             // 
-            // textBox1
+            // AddressInput
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 147);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(450, 100);
-            this.textBox1.TabIndex = 22;
+            this.AddressInput.Location = new System.Drawing.Point(12, 147);
+            this.AddressInput.Multiline = true;
+            this.AddressInput.Name = "AddressInput";
+            this.AddressInput.Size = new System.Drawing.Size(450, 100);
+            this.AddressInput.TabIndex = 22;
             // 
             // NextButton
             // 
@@ -195,7 +195,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(487, 315);
             this.Controls.Add(this.NextButton);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.AddressInput);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.ContactNumberInput);
             this.Controls.Add(this.AgeInput);
@@ -213,13 +213,15 @@
             this.Controls.Add(this.label4);
             this.Location = new System.Drawing.Point(15, 15);
             this.Name = "FrmRegistration";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FrmRegistration";
             this.ResumeLayout(false);
             this.PerformLayout();
         }
 
         private System.Windows.Forms.Button NextButton;
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox AddressInput;
 
         private System.Windows.Forms.Label label8;
 

@@ -46,6 +46,12 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="FrmConfirm.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="FrmConfirm.Designer.cs">
+          <DependentUpon>FrmConfirm.cs</DependentUpon>
+        </Compile>
         <Compile Include="FrmRegistration.cs">
             <SubType>Form</SubType>
         </Compile>
@@ -54,6 +60,9 @@
         </Compile>
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <EmbeddedResource Include="FrmConfirm.resx">
+          <DependentUpon>FrmConfirm.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="FrmRegistration.resx">
           <DependentUpon>FrmRegistration.cs</DependentUpon>
         </EmbeddedResource>
