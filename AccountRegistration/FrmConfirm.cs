@@ -33,7 +33,7 @@ namespace AccountRegistration
             Program.Text = _delProgram(StudentInfoClass.Program);
             LastName.Text = _delLastName(StudentInfoClass.LastName);
             FirstName.Text = _delFirstName(StudentInfoClass.Firstname);
-            MiddleName.Text = _delMiddleName(StudentInfoClass.MiddleName);
+            MiddleName.Text = StudentInfoClass.MiddleName == "" ? "N/A" : _delMiddleName(StudentInfoClass.MiddleName);
             Age.Text = _delAge(StudentInfoClass.Age).ToString();
             ContactNumber.Text = _delContactNo(StudentInfoClass.ContactNo).ToString();
             Address.Text = _delAddress(StudentInfoClass.Address);

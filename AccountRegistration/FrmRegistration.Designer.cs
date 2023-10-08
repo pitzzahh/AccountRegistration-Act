@@ -180,9 +180,10 @@
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(196, 275);
+            this.NextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NextButton.Location = new System.Drawing.Point(201, 269);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(94, 28);
+            this.NextButton.Size = new System.Drawing.Size(87, 34);
             this.NextButton.TabIndex = 23;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
