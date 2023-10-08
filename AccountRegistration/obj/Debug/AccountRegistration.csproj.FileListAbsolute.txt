@@ -1,0 +1,9 @@
+C:\Users\peter\RiderProjects\AccountRegistration\AccountRegistration\bin\Debug\AccountRegistration.exe.config
+C:\Users\peter\RiderProjects\AccountRegistration\AccountRegistration\bin\Debug\AccountRegistration.exe
+C:\Users\peter\RiderProjects\AccountRegistration\AccountRegistration\bin\Debug\AccountRegistration.pdb
+C:\Users\peter\RiderProjects\AccountRegistration\AccountRegistration\obj\Debug\AccountRegistration.csproj.AssemblyReference.cache
+C:\Users\peter\RiderProjects\AccountRegistration\AccountRegistration\obj\Debug\AccountRegistration.Properties.Resources.resources
+C:\Users\peter\RiderProjects\AccountRegistration\AccountRegistration\obj\Debug\AccountRegistration.csproj.GenerateResource.cache
+C:\Users\peter\RiderProjects\AccountRegistration\AccountRegistration\obj\Debug\AccountRegistration.csproj.CoreCompileInputs.cache
+C:\Users\peter\RiderProjects\AccountRegistration\AccountRegistration\obj\Debug\AccountRegistration.exe
+C:\Users\peter\RiderProjects\AccountRegistration\AccountRegistration\obj\Debug\AccountRegistration.pdb
